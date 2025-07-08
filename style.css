@@ -1,0 +1,84 @@
+body {
+    margin-top: 10%;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(36, 26, 49);
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    border: none;
+    border-radius: 15px;
+    border-left: 5px solid rgb(23, 14, 94);
+    border-right: 5px solid rgb(23, 14, 94);
+    border-bottom: 10px solid rgb(23, 14, 94);
+    min-height: 180px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.user-input {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#text-input {
+    width: 250px;
+    min-height: 22px;
+    border: none;
+    border-bottom: 2px solid rgb(38, 2, 72);
+    text-align: center;
+    font-size: 18px;
+}
+
+#check-btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(38, 2, 72);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    font-weight: bold;
+}
+
+#check-btn:hover {
+    background-color: #9d4caf; 
+    transition: 0.5s ease;
+}
+
+.result {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-size: 20px;
+}
+
+.fact{
+    min-height: 80px;
+    width: 420px;
+    background-color: rgb(1, 96, 36);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.light{
+    font-size: 22px;
+}
+
+.factP{
+    color: white;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
